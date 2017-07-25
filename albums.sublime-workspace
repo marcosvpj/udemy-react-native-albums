@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"App",
+				"AppRegistry"
+			],
+			[
+				"Rea",
+				"ReactNative"
+			],
+			[
 				"ve",
 				"venues"
 			],
@@ -47,8 +55,18 @@
 			"file": "index.android.js",
 			"settings":
 			{
-				"buffer_size": 1094,
+				"buffer_size": 211,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/header.js",
+			"settings":
+			{
+				"buffer_size": 287,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -59,10 +77,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 219.0,
-		"last_filter": "java",
+		"height": 239.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript (Babel)"
+			],
 			[
 				"java",
 				"Set Syntax: JavaScript (Babel)"
@@ -73,10 +107,6 @@
 			],
 			[
 				"babel",
-				"Set Syntax: JavaScript (Babel)"
-			],
-			[
-				"bab",
 				"Set Syntax: JavaScript (Babel)"
 			],
 			[
@@ -125,10 +155,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/projetos/course-react/albums"
+		"/C/projetos/course-react/albums",
+		"/C/projetos/course-react/albums/src",
+		"/C/projetos/course-react/albums/src/components"
 	],
 	"file_history":
 	[
+		"/C/Users/marcosVPJ/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/projetos/course-react/albums/albums.sublime-project",
+		"/C/projetos/course-react/albums/index.ios.js",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/src/TripsScreen.js",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/src/CitiesScreen.js",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/package.json",
@@ -147,7 +182,6 @@
 		"/C/projetos/queroirnessa/EuQueroIrNessa/node_modules/react-native/local-cli/templates/HelloNavigation/views/chat/ChatScreen.js",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/node_modules/react-native/local-cli/templates/HelloNavigation/views/welcome/WelcomeScreen.js",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/src/igreja.jpg",
-		"/C/Users/marcosVPJ/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
 		"/C/projetos/queroirnessa/EuQueroIrNessa/app.json"
 	],
 	"find":
@@ -218,7 +252,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -227,20 +261,52 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1094,
+						"buffer_size": 211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								515,
-								515
+								158,
+								158
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
