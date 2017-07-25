@@ -3,7 +3,7 @@ import { Text, AppRegistry } from 'react-native';
 import Header from './src/components/header';
 
 const App = () => (
-  <Header/>
+  <Header headerText="Albums!!!"/>
 );
 
 AppRegistry.registerComponent('albums', () => App);
