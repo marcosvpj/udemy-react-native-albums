@@ -1,17 +1,70 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
 
 const AlbumDetail = (props) => {
+  const { title, artist, thumbnail_image, image } = props.album;
+  const {
+    thumnailStyle,
+    headerStyle,
+    thumbnailContainerStyle,
+    headerTextStyle,
+    headerText,
+    imageStyle
+  } = styles;
+
   return (
     <Card>
+      <CardSection style={headerStyle}>
+        <View style={thumbnailContainerStyle}>
+          <Image
+            style={thumnailStyle}
+            source={{ uri: thumbnail_image}}
+          />
+        </View>
+        <View style={headerText}>
+          <Text style={headerTextStyle}>{title}</Text>
+          <Text>{artist}</Text>
+        </View>
+      </CardSection>
       <CardSection>
-        <Text>{props.album.title}</Text>
-        <Text>{props.album.artist}</Text>
+          <Image
+            style={imageStyle}
+            source={{ uri: image}}
+          />
       </CardSection>
     </Card>
   );
+}
+
+const styles = {
+  thumbnailContainerStyle: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 10,
+    marginLeft: 10
+  },
+  thumnailStyle: {
+    width: 50,
+    height: 50
+  },
+  headerStyle: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start'
+  },
+  headerText: {
+    flexDirection: 'column',
+    justifyContent: 'space-around'
+  },
+  headerTextStyle: {
+    fontSize: 20
+  },
+  imageStyle: {
+    height: 300,
+    flex: 1,
+    width: null
+  }
 }
 
 export default AlbumDetail;
